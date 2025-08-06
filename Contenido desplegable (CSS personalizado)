@@ -1,0 +1,7 @@
+.accordion__title,
+.collapsible__title,
+.disclosure__title,
+.details__summary,
+summary {
+  font-weight: bold !important;
+}
