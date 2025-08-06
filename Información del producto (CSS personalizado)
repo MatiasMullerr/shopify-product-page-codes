@@ -1,0 +1,11 @@
+.price.price--large.price--show-badge .price-item.price-item--last {
+  color: #fffff;
+  font-weight: 700;
+  font-size: 20px;
+}
+.price.price--large.price--show-badge .price-item.price-item--regular {
+  color: #808080;
+}
+.product__tax.caption.rte {
+  display: none !important;
+}
