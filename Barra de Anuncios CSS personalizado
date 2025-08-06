@@ -1,0 +1,26 @@
+.marquee {
+  padding: 2px 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+}
+.marquee__content {
+  display: inline-block !important;
+  margin: 0 28px 0 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+}
+.marquee__content:last-child {
+  margin-right: 0 !important;
+}
+@media (min-width: 990px) {
+  .marquee {
+    padding: 9px 0 !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .marquee__content {
+    font-size: 14px !important;
+    line-height: 1.1 !important;
+  }
+}
